@@ -1,5 +1,5 @@
 ## Prisoner Game 
-#### Author: Tarasidou Anna
+#### Author: Anna Tarasidou
 
 ### 🕹️ Game Overview
 
