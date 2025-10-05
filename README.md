@@ -1,6 +1,5 @@
-# Prisoner Game 
-
-### Author: Tarasidou Anna
+## Prisoner Game 
+#### Author: Tarasidou Anna
 
 ## 🕹️ Game Overview
 
@@ -28,9 +27,9 @@ Upon starting the game, the user can choose one of three modes:
 3. **Human vs Human**
 
 ### Game Rules:
-- Each round, both players take turns selecting random (or user-input) numbers from 1 to 5.
+- Players take turns selecting numbers between **1 and 5**.
 - The score increases until a player reaches or exceeds **27**.
-- If the score exceeds **31**, the player **loses** the round automatically.
+- If the score exceeds **31**, the player **automatically loses** the round.
 - Otherwise, the player with the higher score **under or equal to 31** wins the round.
 - The number of rounds won is tracked across rounds.
 - After each round, players are asked if they want to play again.
@@ -47,17 +46,6 @@ Upon starting the game, the user can choose one of three modes:
 
 ---
 
-## 🧠 Learning Highlights
-
-This project helps beginners learn:
-- How to use **abstract classes** and **inheritance** in Java.
-- Creating simple **game logic and control flow**.
-- Implementing **loops and conditionals**.
-- Utilizing **random number generators** (`Random` class).
-- Capturing and validating **user input** with `Scanner`.
-
----
-
 ## ▶️ Getting Started
 
 To run the game:
@@ -71,41 +59,4 @@ To run the game:
    java PrisonerGame
    ```
 
----
-
-### Status
-
--- Under developement ⚙️
-
-## ✅ Example Gameplay Output
-
-```
-Do you want to play (1). Human vs Computer, (2). Computer vs Computer or (3). Human vs Human?
-1
-Choose the name of the player!
-Anna
---- Anna's turn ---
-Give number between 1-5: 5
-Player Anna selected 5
-...
-Anna has 30 points
-
---- Computer's turn ---
-Player Computer selected 3
-Player Computer selected 4
-...
-Computer has 32 points
-Computer busted!
-
-Player Anna : 1
-Player Computer : 0
-Do you want to play another round?
-Choose y or Y for yes, n or N for no
-```
-
----
-
-## 📘 License
-
-This project is shared for educational purposes.
 
