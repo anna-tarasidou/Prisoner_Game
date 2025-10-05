@@ -1,7 +1,7 @@
 ## Prisoner Game 
 #### Author: Tarasidou Anna
 
-## 🕹️ Game Overview
+### 🕹️ Game Overview
 
 **Prisoner Game** is a simple turn-based Java game inspired by the classic card game **"31"**. Two players (human or computer-controlled) take turns selecting numbers from **1 to 5**, aiming to accumulate a score close to **31** without exceeding it. The game introduces core Java programming concepts such as:
 
@@ -15,18 +15,18 @@ This project is ideal for **beginners in Java** looking to understand object-ori
 
 ---
 
-## 🎮 How to Play
+### 🎮 How to Play
 
-### Objective:
+#### Objective:
 Each player tries to reach a total as close to **31** as possible without going over. If a player exceeds **31**, they **bust**, and their opponent wins the round.
 
-### Game Modes:
+#### Game Modes:
 Upon starting the game, the user can choose one of three modes:
 1. **Human vs Computer**
 2. **Computer vs Computer**
 3. **Human vs Human**
 
-### Game Rules:
+#### Game Rules:
 - Players take turns selecting numbers between **1 and 5**.
 - The score increases until a player reaches or exceeds **27**.
 - If the score exceeds **31**, the player **automatically loses** the round.
@@ -36,7 +36,7 @@ Upon starting the game, the user can choose one of three modes:
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 - **`Player`**: Abstract base class containing core player attributes and methods.
 - **`HumanPlayer`**: Extends `Player`, asks user for input.
@@ -46,7 +46,7 @@ Upon starting the game, the user can choose one of three modes:
 
 ---
 
-## ▶️ Getting Started
+### 🧾 Example Gameplay 
 
 To run the game:
 
